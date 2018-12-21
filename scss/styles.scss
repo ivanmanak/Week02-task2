@@ -1,0 +1,234 @@
+$sectionHeading: 32px;
+$sectionSubHeading: 24px;
+$sectionParagraph: 16px;
+$grainYellow: #F4D35E;
+$roseDust: #A2606C;
+$whiteSmoke: #F5F6F7;
+
+html body {
+    background-image: url();
+    margin-left: 9px;
+    font-family: 'Kanit', sans-serif;
+    width: 98.5%;
+}
+
+section h1 {
+    font-size: $sectionHeading;
+    font-weight: bold;
+}
+
+#main-navbar {
+    font-size: $sectionParagraph;
+    background: #F9F3B4;
+}
+
+.main-image {
+    img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+}
+
+#about {
+    background: $whiteSmoke;
+    text-align: center;
+    h1 {
+        text-align: center;
+        padding: 10px;
+    }
+    p {
+        padding: 0px 35px;
+        line-height: 1.5em;
+        word-wrap: break-word;
+    }
+}
+
+
+#about-grid {
+    .page-header {
+        text-align: center;
+        padding: 20px;
+        font-weight: bold;
+    }
+    img {
+        width: 75%;
+        height: 50%;
+    }
+    p {
+        width: 100%;
+        line-height: 2em;
+        text-align: center;
+    
+    }
+}
+
+.services-content {
+    text-align: center;
+        .services-section-text {
+          
+        }
+        img {
+        }
+        h4 {
+            padding: 8px 0px;
+            font-size: $sectionSubHeading;
+            background: #F5F6F7; 
+             margin: 0;
+        }       
+        p {
+            font-size: $sectionParagraph;
+            background: #F5F6F7; 
+        }                      
+}
+
+#portfolio {
+    background: $roseDust;
+    display: block;
+    position: relative;
+    padding-bottom: 30px;
+    margin: 0;
+    h1 {
+        font-size: $sectionHeading;
+        color: white;
+        padding-top: 25px;
+        }
+    p {
+        font-size: $sectionParagraph;
+        color: white;
+    }
+    .all-portfolios {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .portfolio1 {
+        float: left;
+        display: block;
+        margin: 5px 0px;
+        padding: 0px;
+        h4, p {
+            color: white;
+            font-weight: bold;
+        }
+        img {
+            -webkit-filter: opacity(.3);
+            box-shadow: black 5px 5px;
+        }
+    }
+    .portfolio2 {
+        float: left;
+        display: block;
+        margin: 5px 0px;
+        padding: 0px;
+        h4, p{
+            color: white;
+            font-weight: bold;
+        }
+        img {
+            -webkit-filter: opacity(.3);
+            box-shadow: black 5px 5px;
+        }
+    }
+    .portfolio3 {
+        float: left;
+        display: block;
+        margin: 5px 0px;
+        padding: 0px;
+        h4, p{
+            color: white;
+            font-weight: bold;
+        }
+        img {
+            -webkit-filter: opacity(.3);
+            box-shadow: black 5px 5px;
+        }
+    }
+    .portfolio4 {
+        float: right;
+        display: block;
+        margin: 5px 0px;
+        padding: 0px;
+        h4, p{
+            color: white;
+            font-weight: bold;
+        }
+        img {
+            -webkit-filter: opacity(.3);
+            box-shadow: black 5px 5px;
+        }
+    }
+    .portfolio5 {
+        float: left;
+        display: block;
+        margin: 5px 0px;
+        padding: 0px;
+        h4, p{
+            color: white;
+            font-weight: bold;
+        }
+        img {
+            -webkit-filter: opacity(.3);
+            box-shadow: black 5px 5px;
+        }
+    }
+    .portfolio6 {
+        float: right;
+        display: block;
+        margin: 5px 0px;
+        padding: 0px;
+        h4, p{
+            color: white;
+            font-weight: bold;
+        }
+        img {
+            -webkit-filter: opacity(.3);
+            box-shadow: black 5px 5px;
+        }
+    }
+}
+
+.contact-form {
+    background: #787272;
+    color: white; 
+        }
+        h1 {
+            font-size: $sectionHeading;
+            padding: 25px 0px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .text-input-area {
+            padding: 0px 5px 10px 5px;        
+        }
+        textarea {
+            height: 250px;
+            width: 100%;    
+        }    
+        button {
+            margin: 17px 5px;
+        }
+        .info-area{ 
+        // background: red;
+        text-align: center;
+        P {
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .map-responsive{
+        overflow: hidden;
+    }
+    .map-responsive iframe{
+        width: 100%;
+    }
+
+
+
+@media only screen and (min-width : 320px) {
+    height: 100%;
+    width: 100%;
+
+}
